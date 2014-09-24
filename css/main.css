@@ -102,21 +102,22 @@ textarea {
 #nav {
 
    position:fixed;
-    left:23px;
+    right:23px;
     top:5%;
     bottom:0;
     width:150px;
     height:100%;
-    color: rgba(128,128,128,0.4);
+    color: rgba(143, 139, 133, 0.6);
+    text-align: right;
 }
 
 #nav-spine {
     position: fixed;
-    left: 10px;
+    right: 10px;
     top: 0;
     bottom: 0;
     width: 4px;
-    background-color: rgba(128,128,128,0.3)
+    background-color: rgba(143, 139, 133, 0.6)
 
 }
 
@@ -242,13 +243,7 @@ main {
 /* Slide 3 */
 #slide-3 .bcg {background-image:url('../img/archeader.jpg')}
 #slide-3 .hsContent {
-    position: absolute;
-    width: 20%;
-    height: 200px;
-    margin: auto;
-    top:0; left:0; right:0; bottom:0;
-    padding: 10px 10px 10px 10px;
-    text-align: center;
+margin-left: -450px;
 }
 	#slide-3 h2 {
 		background: none;
@@ -269,7 +264,7 @@ main {
 }
 
 /* Slide 4 */
-#slide-4 .bcg {background-image:url('../img/artheader.jpg')}
+#slide-4 .bcg {background-image:url('../img/designheader.jpg')}
 #slide-4 .hsContent {
 	margin-left: -450px;
 }
@@ -291,7 +286,7 @@ main {
 }
 
 /* Slide 5 */
-#slide-5 .bcg {background-image:url('../img/designheader.jpg')}
+#slide-5 .bcg {background-image:url('../img/artheader.jpg')}
 #slide-5 .hsContent {
     margin-left: -450px;
 }
