@@ -1,0 +1,100 @@
+p {
+	font-family: "Open Sans", sans-serif;
+}
+
+body {
+	margin: 0px;
+}
+
+/*h2 {
+	font-size: 15px;
+	font-family: "Open Sans", sans-serif;
+}*/
+
+a:link {
+	color: #d9e6ed;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #000;
+	text-decoration: none; 
+}
+
+a:hover {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.arrow {
+	opacity: 1;
+	transition: opacity .25 ease-in-out;
+	-moz-transition: opacity .25 ease-in-out;
+	-webkit-transition: opacity .25 ease-in-out;
+
+}
+
+.arrow:hover {
+	opacity: 0.5;
+}
+
+#container {
+	height: auto;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+}
+
+.panel {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	margin: 0;
+	height: 0;
+	overflow: hidden;
+}
+
+.box {
+	position: absolute;
+	width: 20%;
+	height: 200px;
+	margin: auto;
+	top:0; left:0; right:0; bottom:0;
+/*	background-color: rgba(255, 255, 255, 0.2);*/
+/*	border-style: solid;
+	border-width: 2px;*/
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+}
+
+.float_img {
+	float: left;
+}
+
+img.desaturate { 
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+.profilepic {
+	height: auto;
+	border-radius:50%;
+	padding: 10px 10px 10px 10px;
+
+}
+
+.profile {
+	position: absolute;
+	width: 30%;
+	height: 400px;
+	margin: auto;
+	top:0; left:0; right:0; bottom:0;
+	color: #000;
+/*	background-color: rgba(255, 255, 255, 0.2);*/
+/*	border-style: solid;
+	border-width: 2px;*/
+	padding: 10px 10px 10px 10px;
+	text-align: center;
+}
