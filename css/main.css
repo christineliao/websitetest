@@ -103,7 +103,6 @@ textarea {
 
    position:fixed;
     right:23px;
-    top:5%;
     bottom:0;
     width:150px;
     height:100%;
@@ -121,9 +120,10 @@ textarea {
 
 }
 
-#nav-item {
-    padding-top: 8%;
-    padding-bottom: 8%;
+.nav-item {
+    position: relative;
+    padding-top: 25%;
+    padding-bottom: 25%;
 }
 
 body, html {/*
@@ -213,8 +213,8 @@ main {
 }
 
 /* Slide 2 */
-#slide-2 .bcg {background-image:url('../img/sf.jpg')}
-#slide-2 .hsContent {
+#home .bcg {background-image:url('../img/sf.jpg')}
+#home .hsContent {
     position: absolute;
     width: 400px;
     height: 200px;
@@ -241,11 +241,11 @@ main {
 
 
 /* Slide 3 */
-#slide-3 .bcg {background-image:url('../img/archeader.jpg')}
-#slide-3 .hsContent {
+#arch .bcg {background-image:url('../img/archeader.jpg')}
+#arch .hsContent {
 margin-left: -450px;
 }
-	#slide-3 h2 {
+	#arch h2 {
 		background: none;
         padding-left: 0;
         padding-right: 0;
@@ -253,7 +253,7 @@ margin-left: -450px;
 
 /* arch */
 
-#arch .hsContent {
+#archcontent .hsContent {
 
     position: absolute;
     width: 400px;
@@ -264,11 +264,11 @@ margin-left: -450px;
 }
 
 /* Slide 4 */
-#slide-4 .bcg {background-image:url('../img/designheader.jpg')}
-#slide-4 .hsContent {
+#design .bcg {background-image:url('../img/designheader.jpg')}
+#design .hsContent {
 	margin-left: -450px;
 }
-	#slide-4 h2 {
+	#design h2 {
 		background: none;
 		padding-left: 0;
 		padding-right: 0;
@@ -276,7 +276,7 @@ margin-left: -450px;
 
 /* art */
 
-#art .hsContent {
+#artcontent .hsContent {
     position: absolute;
     width: 400px;
     height: 200px;
@@ -286,11 +286,11 @@ margin-left: -450px;
 }
 
 /* Slide 5 */
-#slide-5 .bcg {background-image:url('../img/artheader.jpg')}
-#slide-5 .hsContent {
+#art .bcg {background-image:url('../img/artheader.jpg')}
+#art .hsContent {
     margin-left: -450px;
 }
-    #slide-5 h2 {
+    #art h2 {
         background: none;
         padding-left: 0;
         padding-right: 0;
@@ -300,18 +300,18 @@ margin-left: -450px;
 
 /* Slide 6 */
 
-#slide-6 .bcg {background-color:#fff;}
-#slide-6 .hsContent {
+#contact .bcg {background-color:#fff;}
+#contact .hsContent {
     margin-left: -450px;
     position: fixed;
     top: 250px;
 }
-    #slide-6 h2 {
+    #contact h2 {
         background: none;
         padding-left: 0;
         padding-right: 0;
     }
-#slide-6 a> img {
+#contact a> img {
     margin-top: 10px;
     margin-left: 10px;
 }

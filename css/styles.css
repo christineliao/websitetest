@@ -11,19 +11,24 @@ body {
 	font-family: "Open Sans", sans-serif;
 }*/
 
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
 a:link {
-	color: #d9e6ed;
 	text-decoration: none;
+	color: inherit;
 }
 
 a:visited {
-	color: #000;
 	text-decoration: none; 
+	color: inherit;
 }
 
 a:hover {
-	color: #FFF;
 	text-decoration: none;
+	color: inherit;
 }
 
 .arrow {

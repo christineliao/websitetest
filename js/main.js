@@ -49,6 +49,21 @@
 	    
 	    s.refresh($('.homeSlide'));
 	}
+
+//Nav bar
+
+var bar = $('#nav-spine'),
+    $window = $(window),
+    docHeight = $(document).height(),
+    baseX = $window.height() / docHeight * 100;
+
+bar.css('background', '-webkit-linear-gradient(left, black '+ baseX +'%, rgba(143, 139, 133, 0.6) '+ baseX +'%)');
+
+$window.scroll(function(e) {      
+    var x = $window.scrollTop() / docHeight * 100 + baseX;
+    bar.css('background', '-webkit-linear-gradient(left, black '+ x +'%, rgba(143, 139, 133, 0.6) '+ x +'%)');
+});
+
 //Smooth Scroll
 
 $('a[href*=#]:not([href=#])').click(function() {
